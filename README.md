@@ -76,20 +76,20 @@ data/voices/
     * sources/
     * exports/
       * mono-44100/
-        * a-c3.wav
-        * a-c4.wav
-        * a-c5.wav
-        * e-c3.wav
-        * i-c3.wav
-        * o-c3.wav
+        * _-a-c3.wav
+        * _-a-c4.wav
+        * _-a-c5.wav
+        * _-e-c3.wav
+        * _-i-c3.wav
+        * _-o-c3.wav
   * consonants/
     * sources/
     * exports/
       * mono-44100/
-        * b-a.wav
-        * b-e.wav
-        * b-a.wav
-        * b-e.wav
+        * b-a-c3.wav
+        * b-e-c3.wav
+        * b-a-g2.wav
+        * b-e-g2.wav
 
 
 [singer]/[serie]/sources/singer.properties
@@ -152,7 +152,7 @@ Note that Vocobox can also work with other inputs than voice :
 
 Next sections explain how the voice samples where recorded and exported, which may be useful for those wishing to extend this dataset.
 
-## Filling the dataset with voices
+## Adding voices samples to the dataset
 
 ### Devices
 For the first voice record, we simply used :
