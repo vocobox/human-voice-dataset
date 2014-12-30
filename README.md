@@ -55,7 +55,7 @@ note      : c3, c#3, d3, ...
 dynamic   : _, vibrator, bend, ...
 ```
 
-Browse the dataset <a href="https://github.com/vocobox/human-voice-dataset/data/voices/martin">online</a>
+Browse the dataset <a href="https://github.com/vocobox/human-voice-dataset/tree/master/data/voices/martin">online</a>
 
 
 data/voices/
