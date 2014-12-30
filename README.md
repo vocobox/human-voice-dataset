@@ -112,25 +112,33 @@ date : 2014
 
 Vocobox applications allow to evaluate pitch detection in various ways : bulk evaluation on note dataset, live evaluation with microphone, etc.
 
-### Benchmarks on note datasets
+### Benchmarks on note dataset
 
 Dataset based benchmarks evaluate voice on a folder of notes and report charts indicating latency and accuracy of the estimation.
+
+##### Notes FFT
+
+Using <a href="https://github.com/jzy3d/jzy3d-spectro">Jzy3d Spectro</a> we can draw each wav file FFT easily as well :
+<img src="doc/images/notes-fft.png">
 
 ##### Notes Pitch Detection with TarsosDSP (Yin algorithm)
 
 The following chart mozaic shows :
-* pitch detection results on a range of notes sung by a human from D1 to A#3 (hence the empty row in the note matrix : D1 makes the note serie start at row 1 for octave 1).
+* pitch detection results of Yin algorithm on a range of notes sung by a human from D1 to A#3 (hence the empty row in the note matrix : D1 makes the note serie start at row 1 for octave 1).
 * the estimation accuracy and latency as a green cross : horizontal line shows the maximum accepted semitone error (here 0.5), the vertical line shows the first time pitch detection got a frequency within the bounds of the maximum accepted semitone error. The red dots indicate the semitone error in time.
 
 <img src="doc/images/pitch-precision-and-latency.png">
 
+<font color="orange">There is approximately 0.1s latency for each note pitch detection. We do not pretend this is the best possible performance with Tarsos's Yin, but rather how we were able to use it so far. See also next section on voyel benchmarks.</font>
 
-<font color="orange">There is approximately 0.1s latency for each note pitch detection. We do not pretend this is the best possible performance with Tarsos's Yin, but rather how we were able to use it so far.</font>
 
-###### Notes FFT
 
-Using <a href="https://github.com/jzy3d/jzy3d-spectro">Jzy3d Spectro</a> we can draw each wav file FFT easily as well :
-<img src="doc/images/notes-fft.png">
+### Benchmarks on voyel dataset
+
+Below is a comparative evaluation we did on voyels. It shows precision is not related to a voyel category.
+
+<img src="doc/images/voyels.png">
+
 
 
 ### Benchmarks on live voice
