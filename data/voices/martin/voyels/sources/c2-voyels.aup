@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="c2-voyels_data" version="1.3.0" audacityversion="2.0.5" sel0="69.6952030018" sel1="70.9092533204" vpos="0" h="3.5580088543" zoom="20.7981494790" rate="44100.0">
+	<tags/>
+	<wavetrack name="c2-voyels" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="3206016">
+				<waveblock start="0">
+					<simpleblockfile filename="e00007fd.au" len="262144" min="-0.789743" max="0.813815" rms="0.075599"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000700.au" len="262144" min="-1.006794" max="1.000687" rms="0.113348"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0000fce.au" len="262144" min="-0.75451" max="0.806734" rms="0.132208"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0000242.au" len="262144" min="-0.68363" max="0.661855" rms="0.12486"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e00005ca.au" len="262144" min="-0.640731" max="0.827724" rms="0.147633"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="e0000173.au" len="262144" min="-0.458518" max="0.507258" rms="0.12035"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<simpleblockfile filename="e0000fbb.au" len="262144" min="-0.478256" max="0.553259" rms="0.119943"/>
+				</waveblock>
+				<waveblock start="1835008">
+					<simpleblockfile filename="e00005b5.au" len="262144" min="-0.520722" max="0.694351" rms="0.173367"/>
+				</waveblock>
+				<waveblock start="2097152">
+					<simpleblockfile filename="e0000b36.au" len="262144" min="-0.691303" max="0.755621" rms="0.166932"/>
+				</waveblock>
+				<waveblock start="2359296">
+					<simpleblockfile filename="e0000578.au" len="262144" min="-0.551172" max="0.600916" rms="0.144451"/>
+				</waveblock>
+				<waveblock start="2621440">
+					<simpleblockfile filename="e00000af.au" len="262144" min="-0.444541" max="0.515935" rms="0.131168"/>
+				</waveblock>
+				<waveblock start="2883584">
+					<simpleblockfile filename="e0000623.au" len="262144" min="-0.472762" max="0.616535" rms="0.164068"/>
+				</waveblock>
+				<waveblock start="3145728">
+					<simpleblockfile filename="e0000c05.au" len="60288" min="-0.080009" max="0.094213" rms="0.017059"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="Piste de marqueurs" numlabels="29" height="73" minimized="0" isSelected="1">
+		<label t="6.58261689" t1="7.82221034" title="_-a-c3"/>
+		<label t="8.57948926" t1="9.81157002" title="_-a-c3-2"/>
+		<label t="10.61542760" t1="11.88507181" title="_-a-c3-3"/>
+		<label t="12.66188371" t1="13.93152791" title="_-a-c3-4"/>
+		<label t="14.66476622" t1="15.88632923" title="_-a-c3-5"/>
+		<label t="16.69769949" t1="17.87869399" title="_-a-c3-6"/>
+		<label t="18.65250081" t1="19.82448008" title="_-a-c3-7"/>
+		<label t="22.60116942" t1="23.77465123" title="_-e-c3"/>
+		<label t="24.62208239" t1="25.85716823" title="_-e-c3-2"/>
+		<label t="26.65201058" t1="27.83000000" title="_-e-c3-3"/>
+		<label t="28.66991848" t1="29.82837491" title="_-e-c3-4"/>
+		<label t="31.69903412" t1="32.76283069" title="_-i-c3"/>
+		<label t="33.57720603" t1="34.71462693" title="_-i-c3-2"/>
+		<label t="35.67625094" t1="36.83921499" title="_-i-c3-3"/>
+		<label t="37.68063600" t1="38.75044272" title="_-i-c3-4"/>
+		<label t="41.67738581" t1="43.00863406" title="_-o-c3"/>
+		<label t="43.70731400" t1="45.02503941" title="_-o-c3-2"/>
+		<label t="45.62605442" t1="46.96782043" title="_-o-c3-3"/>
+		<label t="47.67852068" t1="48.92262175" title="_-o-c3-4"/>
+		<label t="49.54166721" t1="50.93602203" title="_-o-c3-5"/>
+		<label t="51.60314869" t1="52.63839704" title="_-o-c3-6"/>
+		<label t="54.71941151" t1="55.89740093" title="_-ou-c3"/>
+		<label t="56.65017223" t1="57.79961343" title="_-ou-c3-2"/>
+		<label t="58.56891264" t1="59.81151118" title="_-ou-c3-3"/>
+		<label t="60.67246518" t1="61.83993683" title="_-ou-c3-4"/>
+		<label t="63.71059605" t1="65.00428086" title="_-u-c3"/>
+		<label t="65.70897095" t1="66.97110247" title="_-u-c3-2"/>
+		<label t="67.72387377" t1="68.86279721" title="_-u-c3-3"/>
+		<label t="69.69520300" t1="70.90925332" title="_-u-c3-4"/>
+	</labeltrack>
+</project>
