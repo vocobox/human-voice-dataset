@@ -111,6 +111,7 @@ date : 2014
 
 See this <a href="https://github.com/vocobox/vocobox/blob/master/doc/benchmark-human-voice.md">benchmark</a> to learn more on Human Voice Dataset pitch evaluation with TarsosDSP.
 
+<img src="doc/images/voyels.png"/>
 
 ## Adding voices samples to the dataset
 
