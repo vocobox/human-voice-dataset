@@ -109,7 +109,7 @@ date : 2014
 
 <a href="https://github.com/vocobox/vocobox/">Vocobox applications</a> allow to evaluate pitch detection in various ways : bulk evaluation on note datasets, live evaluation with microphone, etc.
 
-See this <a href="https://github.com/vocobox/vocobox/blob/master/Benchmark.md">benchmark</a> to learn more on Human Voice Dataset pitch evaluation with TarsosDSP.
+See this <a href="https://github.com/vocobox/vocobox/blob/master/doc/benchmark-human-voice.md">benchmark</a> to learn more on Human Voice Dataset pitch evaluation with TarsosDSP.
 
 
 ## Adding voices samples to the dataset
