@@ -1,11 +1,19 @@
 # Human Voice Dataset
 
+<table>
+<tr>
+<td>
 A collection of human voice records based on various way of singing (note pitch, voyel, consonant, etc).
+
+
+</td>
+<td><img src="doc/images/vocalchords.png"></td>
+</tr>
+</table>
 
 This dataset is built to ease research on voice-based musical controllers. It can help to benchmark voice feature detection algorithms (pitch detection, onset detection) as well as form a training corpus for machine learning algorithms.
 
-Current version provides 1 singer records but the dataset will grow in future monthes.
-
+Current version provides 1 singer records but the dataset will grow in future weeks.
 
 
 ## Voice features
